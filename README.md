@@ -8,8 +8,7 @@
 
 ## 环境依赖
 
-- .NET 8 运行库或以上
-- 请点击  [此处](https://dotnet.microsoft.com/download/dotnet/thank-you/runtime-desktop-8.0.0-windows-x64-installer) 下载并安装 .NET 8 运行库（.NET 桌面运行时 8.0.0 x64）。
+- 请点击  [此处](https://dotnet.microsoft.com/download/dotnet/thank-you/runtime-desktop-8.0.1-windows-x64-installer) 下载并安装 .NET 8 运行库（.NET 桌面运行时 8.0.1 x64）。
 
 ## 使用说明
 
