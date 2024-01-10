@@ -234,8 +234,10 @@ namespace 华山派小六壬
         private void 确认_Click(object sender, EventArgs e)
         {
             string key = string.Join("", buttonValues.Select(b => b == "空亡" ? "1" : b == "赤口" ? "2" : b == "留连" ? "3" : b == "大安" ? "4" : b == "速喜" ? "5" : "6"));
+            string value = string.Join("，", buttonValues);
             if (textMap.ContainsKey(key))
             {
+                选文.Text = value;
                 占文.Text = textMap[key]; // 将对应的文字显示在文本框中
             }
             else

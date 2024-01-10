@@ -39,6 +39,7 @@
             速喜 = new Button();
             随机 = new Button();
             占文 = new TextBox();
+            选文 = new Label();
             SuspendLayout();
             // 
             // 留连
@@ -140,17 +141,27 @@
             // 占文
             // 
             占文.Font = new Font("梦源黑体 SC W20", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 134);
-            占文.Location = new Point(107, 350);
+            占文.Location = new Point(107, 377);
             占文.Name = "占文";
             占文.Size = new Size(615, 41);
             占文.TabIndex = 10;
             占文.TextAlign = HorizontalAlignment.Center;
+            // 
+            // 选文
+            // 
+            选文.AutoSize = true;
+            选文.Font = new Font("宋体", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            选文.Location = new Point(296, 324);
+            选文.Name = "选文";
+            选文.Size = new Size(0, 23);
+            选文.TabIndex = 11;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(选文);
             Controls.Add(占文);
             Controls.Add(随机);
             Controls.Add(速喜);
@@ -181,5 +192,6 @@
         private Button 速喜;
         private Button 随机;
         private TextBox 占文;
+        private Label 选文;
     }
 }
